@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+	<ShortName>Google Drive</ShortName>
+	<LongName>Google Drive</LongName>
+	<Description>Search the contents of your Google Drive.</Description>
+	<InputEncoding>UTF-8</InputEncoding>
+	<Image height="16" width="16" type="image/png">https://ssl.gstatic.com/docs/doclist/images/infinite_arrow_favicon_4.ico</Image>
+
+	<Url type="text/html" method="get" template="https://drive.google.com/drive/search?q={searchTerms}"/>
+</OpenSearchDescription>

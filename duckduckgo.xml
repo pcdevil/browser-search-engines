@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+	<ShortName>DuckDuckGo — Privacy, simplified.</ShortName>
+	<LongName>DuckDuckGo — Privacy, simplified.</LongName>
+	<Description>The Internet privacy company that empowers you to seamlessly take control of your personal information online, without any tradeoffs.</Description>
+	<InputEncoding>UTF-8</InputEncoding>
+	<Image height="32" width="32" type="image/x-icon">https://duckduckgo.com/favicon.ico</Image>
+
+	<Url type="text/html" method="get" template="https://duckduckgo.com/?q={searchTerms}"/>
+</OpenSearchDescription>

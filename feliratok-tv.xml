@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+	<ShortName>Feliratok.info: TV Shows</ShortName>
+	<LongName>Feliratok.info: TV Shows</LongName>
+	<Description>Search Feliratok.info tv show subtitles</Description>
+	<InputEncoding>UTF-8</InputEncoding>
+	<Image height="32" width="32" type="image/x-icon">https://www.feliratok.info/favicon.ico</Image>
+
+	<Url type="text/html" method="get" template="https://www.feliratok.info/index.php?tab=sorozat&amp;search={searchTerms}"/>
+</OpenSearchDescription>

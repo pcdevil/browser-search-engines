@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+	<ShortName>Wikipédia (hu)</ShortName>
+	<LongName>Wikipédia (hu)</LongName>
+	<Description>Wikipédia (hu)</Description>
+	<InputEncoding>UTF-8</InputEncoding>
+	<Image height="16" width="16" type="image/x-icon">https://hu.wikipedia.org/static/favicon/wikipedia.ico</Image>
+
+	<Url type="text/html" method="get" template="https://hu.wikipedia.org/w/index.php?title=Speci%C3%A1lis:Keres%C3%A9s&amp;search={searchTerms}"/>
+	<Url type="application/x-suggestions+json" method="get" template="https://hu.wikipedia.org/w/api.php?action=opensearch&amp;search={searchTerms}&amp;namespace=0"/>
+	<Url type="application/x-suggestions+xml" method="get" template="https://hu.wikipedia.org/w/api.php?action=opensearch&amp;format=xml&amp;search={searchTerms}&amp;namespace=0"/>
+	<moz:SearchForm>https://hu.wikipedia.org/wiki/Speci%C3%A1lis:Keres%C3%A9s</moz:SearchForm>
+</OpenSearchDescription>
