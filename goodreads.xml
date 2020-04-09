@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+	<ShortName>Goodreads</ShortName>
+	<LongName>Goodreads Search</LongName>
+	<Description>Search Goodreads.com</Description>
+	<InputEncoding>UTF-8</InputEncoding>
+	<Image height="16" width="16" type="image/vnd.microsoft.icon">https://www.goodreads.com/favicon.ico</Image>
+
+	<Url type="text/html" method="get" template="https://www.goodreads.com/search/search">
+		<Param name="search_type" value="books"/>
+		<Param name="search[query]" value="{searchTerms}"/>
+	</Url>
+</OpenSearchDescription>
