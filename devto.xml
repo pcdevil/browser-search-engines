@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+	<ShortName>DEV Search</ShortName>
+	<LongName>DEV Search</LongName>
+	<Description>Find posts from the DEV community.</Description>
+	<InputEncoding>UTF-8</InputEncoding>
+	<Image height="32" width="32" type="image/png">https://dev-to.s3.us-east-2.amazonaws.com/favicon.ico</Image>
+
+	<Url type="text/html" method="get" template="https://dev.to/search?q={searchTerms}"/>
+ </OpenSearchDescription>pcdevil@hades:~$
